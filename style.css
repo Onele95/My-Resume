@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family*Inter:wght@200;300;400;500;600;7006display*swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    color: rgb(255, 233, 205);
+    text-decoration-color: blueviolet;
+}
+html {
+    font-size: 10px;
+}
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  background-color: rgb(255, 209, 205);
+  color: black;
+}
+/*common styles*/
+img{
+ width: 100%;   
+}
+*{
+text-decoration: none;
+color: black;
+}
+
+/*layouts */
+.container{
+   max-width: 1000px; 
+   width: 90%;
+   margin: 0 auto;
+   display: grid;
+   padding: 5rem;
+   background: teal;
+
+}
+
